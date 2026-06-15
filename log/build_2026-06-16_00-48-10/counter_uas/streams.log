@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/saravana-perumal/ros2_ws/build/counter_uas': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saravana-perumal/ros2_ws/build/counter_uas -- -j16 -l16
+[0.089s] Invoked command in '/home/saravana-perumal/ros2_ws/build/counter_uas' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saravana-perumal/ros2_ws/build/counter_uas -- -j16 -l16
+[0.107s] Invoking command in '/home/saravana-perumal/ros2_ws/build/counter_uas': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saravana-perumal/ros2_ws/build/counter_uas
+[0.122s] -- Install configuration: ""
+[0.122s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/lib/counter_uas/intruder_drone.py
+[0.122s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/lib/counter_uas/radar_detector.py
+[0.122s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/lib/counter_uas/threat_classifier.py
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/lib/counter_uas/interceptor_drone.py
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/lib/counter_uas/mission_controller.py
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/lib/counter_uas/drone_visualizer.py
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/launch
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/launch/counter_uas_launch.py
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/worlds
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/config
+[0.123s] -- Up-to-date: /home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/config/counter_uas.rviz
+[0.124s] [31mCMake Error at cmake_install.cmake:57 (file):
+[0.124s]   file INSTALL cannot find
+[0.124s]   "/home/saravana-perumal/ros2_ws/src/counter_uas/urdf": No such file or
+[0.124s]   directory.
+[0.124s] 
+[0.125s] [0m
+[0.127s] Invoked command in '/home/saravana-perumal/ros2_ws/build/counter_uas' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saravana-perumal/ros2_ws/build/counter_uas

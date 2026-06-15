@@ -1,0 +1,8 @@
+source;share/counter_uas/hook/cmake_prefix_path.ps1
+source;share/counter_uas/hook/cmake_prefix_path.dsv
+source;share/counter_uas/hook/cmake_prefix_path.sh
+source;share/counter_uas/local_setup.bash
+source;share/counter_uas/local_setup.dsv
+source;share/counter_uas/local_setup.ps1
+source;share/counter_uas/local_setup.sh
+source;share/counter_uas/local_setup.zsh

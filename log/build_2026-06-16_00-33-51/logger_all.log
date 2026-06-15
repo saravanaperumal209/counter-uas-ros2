@@ -1,0 +1,142 @@
+[0.262s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'counter_uas']
+[0.262s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['counter_uas'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74c194aa0440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74c194bc4710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74c194bc4710>>, mixin_verb=('build',))
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.365s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saravana-perumal/ros2_ws'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/counter_uas) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/counter_uas' with type 'ros.ament_cmake' and name 'counter_uas'
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.477s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/jazzy
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'cmake_target' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'cmake_clean_cache' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'cmake_clean_first' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'cmake_force_configure' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'ament_cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'catkin_cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'counter_uas' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.557s] DEBUG:colcon.colcon_core.verb:Building package 'counter_uas' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saravana-perumal/ros2_ws/build/counter_uas', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saravana-perumal/ros2_ws/install/counter_uas', 'merge_install': False, 'path': '/home/saravana-perumal/ros2_ws/src/counter_uas', 'symlink_install': False, 'test_result_base': None}
+[0.557s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.559s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saravana-perumal/ros2_ws/src/counter_uas' with build type 'ament_cmake'
+[0.559s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saravana-perumal/ros2_ws/src/counter_uas'
+[0.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.566s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.566s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saravana-perumal/ros2_ws/build/counter_uas': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saravana-perumal/ros2_ws/src/counter_uas -DCMAKE_INSTALL_PREFIX=/home/saravana-perumal/ros2_ws/install/counter_uas
+[1.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saravana-perumal/ros2_ws/build/counter_uas' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saravana-perumal/ros2_ws/src/counter_uas -DCMAKE_INSTALL_PREFIX=/home/saravana-perumal/ros2_ws/install/counter_uas
+[1.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saravana-perumal/ros2_ws/build/counter_uas': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saravana-perumal/ros2_ws/build/counter_uas -- -j16 -l16
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saravana-perumal/ros2_ws/build/counter_uas' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saravana-perumal/ros2_ws/build/counter_uas -- -j16 -l16
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saravana-perumal/ros2_ws/build/counter_uas': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saravana-perumal/ros2_ws/build/counter_uas
+[1.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(counter_uas)
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saravana-perumal/ros2_ws/build/counter_uas' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saravana-perumal/ros2_ws/build/counter_uas
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas' for CMake module files
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas' for CMake config files
+[1.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('counter_uas', 'cmake_prefix_path')
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/hook/cmake_prefix_path.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/hook/cmake_prefix_path.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/hook/cmake_prefix_path.sh'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/lib'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/bin'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/lib/pkgconfig/counter_uas.pc'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/lib/python3.12/site-packages'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/bin'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.sh'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.bash'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.zsh'
+[1.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saravana-perumal/ros2_ws/install/counter_uas/share/colcon-core/packages/counter_uas)
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(counter_uas)
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas' for CMake module files
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas' for CMake config files
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('counter_uas', 'cmake_prefix_path')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/hook/cmake_prefix_path.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/lib'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/lib/pkgconfig/counter_uas.pc'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/lib/python3.12/site-packages'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/saravana-perumal/ros2_ws/install/counter_uas/bin'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.sh'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.bash'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/saravana-perumal/ros2_ws/install/counter_uas/share/counter_uas/package.zsh'
+[1.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saravana-perumal/ros2_ws/install/counter_uas/share/colcon-core/packages/counter_uas)
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.377s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.388s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.430s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saravana-perumal/ros2_ws/install/local_setup.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saravana-perumal/ros2_ws/install/_local_setup_util_ps1.py'
+[1.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saravana-perumal/ros2_ws/install/setup.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saravana-perumal/ros2_ws/install/local_setup.sh'
+[1.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saravana-perumal/ros2_ws/install/_local_setup_util_sh.py'
+[1.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saravana-perumal/ros2_ws/install/setup.sh'
+[1.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saravana-perumal/ros2_ws/install/local_setup.bash'
+[1.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saravana-perumal/ros2_ws/install/setup.bash'
+[1.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saravana-perumal/ros2_ws/install/local_setup.zsh'
+[1.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saravana-perumal/ros2_ws/install/setup.zsh'

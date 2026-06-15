@@ -1,0 +1,4 @@
+source;share/counter_uas/local_setup.bash
+source;share/counter_uas/local_setup.dsv
+source;share/counter_uas/local_setup.sh
+source;share/counter_uas/local_setup.zsh
