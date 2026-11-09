@@ -102,6 +102,6 @@ Score ≥ 25 → `SUSPICIOUS / MEDIUM`
 MSc Mechatronics & IT — Karlsruhe Institute of Technology (KIT)
 [![LinkedIn](https://www.linkedin.com/in/saravana-perumal-k)
 [![GitHub](https://github.com/saravanaperumal209)
-EOF 
+
 ---
 
