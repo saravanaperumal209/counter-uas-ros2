@@ -39,7 +39,7 @@ A full **detect → classify → intercept** pipeline for counter-drone operatio
 - ROS 2 Jazzy
 - Python 3.10+
 ```bash
-sudo apt install ros-humble-desktop ros-humble-launch-ros
+sudo apt install ros-jazzy-desktop ros-humble-launch-ros
 ```
 ## Build & Run
 ```bash
