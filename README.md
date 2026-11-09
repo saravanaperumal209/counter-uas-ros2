@@ -35,7 +35,7 @@ A full **detect → classify → intercept** pipeline for counter-drone operatio
 | `/interceptor/status` | String | State machine status |
 | `/mission/summary` | String | Aggregated mission log |
 ## Prerequisites
-- Ubuntu 22.04
+- Ubuntu 24.04
 - ROS 2 Jazzy
 - Python 3.10+
 ```bash
