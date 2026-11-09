@@ -44,10 +44,10 @@ sudo apt install ros-jazzy-desktop ros-humble-launch-ros
 ## Build & Run
 ```bash
 # 1. Clone / copy this package into your workspace
-cd ~/ros2_ws/src
-git clone 
+git clone https://github.com/saravanaperumal209/counter-uas-ros2.git
+cd counter-uas-ros2
 # 2. Build
-cd ~/ros2_ws
+source /opt/ros/jazzy/setup.bash
 colcon build --packages-select counter_uas
 source install/setup.bash
 # 3. Launch everything
