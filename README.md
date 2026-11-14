@@ -21,7 +21,15 @@ A full **detect → classify → intercept** pipeline for counter-drone operatio
 │                                    ▼                 │
 │                         [Mission Controller]         │
 │                           Live Dashboard             │
-└─────────────────────────────────────────────────────┘
+└──────────────────────────────────
+
+
+
+https://github.com/user-attachments/assets/37fca5d5-45ae-4f17-abd6-0811ed0d9651
+
+
+
+───────────────────┘
 ```
 ## ROS 2 Topics
 | Topic | Type | Description |
